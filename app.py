@@ -15,7 +15,6 @@ def get_db_driver():
     except Exception as e:
         st.error("⚠️ Failed to connect to CognoDB Cloud. Verify connection settings.")
         return None
-
 driver = get_db_driver()
 
 # App Layout Customization
