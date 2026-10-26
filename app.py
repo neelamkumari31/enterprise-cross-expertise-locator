@@ -4,6 +4,7 @@ from neo4j import GraphDatabase
 from dotenv import load_dotenv
 
 load_dotenv()
+
 URI = os.getenv("COGNODB_URI")
 PASSWORD = os.getenv("COGNODB_PASSWORD")
 
